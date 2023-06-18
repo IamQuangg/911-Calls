@@ -78,3 +78,6 @@
     plt.title('Phân tích theo loại cuộc gọi')
     
     plt.show()
+
+ ![image](https://github.com/IamQuangg/911-Calls/assets/128073066/4ab07e0f-953b-45ac-877c-e22a097758f8)
+
