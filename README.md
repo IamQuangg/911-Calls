@@ -50,6 +50,7 @@
     plt.title('Số cuộc gọi cấp cứu theo tháng')
 
     plt.show()
+![image](https://github.com/IamQuangg/911-Calls/assets/128073066/dbeefece-dbf5-4f76-865a-ad972a260b2f)
 
 
     
