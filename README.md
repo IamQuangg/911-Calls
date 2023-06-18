@@ -13,6 +13,10 @@
     df = pd.read_csv("D:/Python For DA/911.csv")
 
     df.head()
+
+    df['Reason'] = df['title'].apply(lambda title : title.split(':')[0])
+    
+    df['Reason']
     
     
     
