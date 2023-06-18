@@ -67,4 +67,14 @@
  # Phân tích theo loại cuộc gọi
     byreason = df.groupby(df['Reason']).count()
     byreason.head()
+
+    plt.figure()
+    sns.barplot(x=byreason.index, y='title', data=byreason)
     
+    plt.xlabel('Loại cuộc gọi')
+    
+    plt.ylabel('Số cuộc gọi')
+    
+    plt.title('Phân tích theo loại cuộc gọi')
+    
+    plt.show()
