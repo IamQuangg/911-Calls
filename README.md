@@ -38,6 +38,20 @@
 
 ![image](https://github.com/IamQuangg/911-Calls/assets/128073066/32a96be7-30f3-436b-8861-d7317d229ffa)
 
+# Phân tích xu hướng theo tháng 
+    plt.figure()
+
+    sns.barplot(x=byMonth.index, y='title', data=byMonth)
+
+    plt.xlabel('Tháng')
+
+    plt.ylabel('Số cuộc gọi cấp cứu')
+
+    plt.title('Số cuộc gọi cấp cứu theo tháng')
+
+    plt.show()
+
+
     
     
 
