@@ -25,7 +25,12 @@
     df['Day of Week'] = df['timeStamp'].apply(lambda time : time.dayofweek)
     
     df.head()
+
+    dmap = {0:'Mon',1:'Tue',2:'Wed',3:'Thu',4:'Fri',5:'Sat',6:'Sun'}
     
+    df['Day of Week'] = df['Day of Week'].map(dmap)
+    
+    df.head()
     
     
     
