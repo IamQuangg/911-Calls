@@ -35,6 +35,9 @@
     sns.countplot(x = 'Month', data = df, hue= 'Reason')
     
     plt.legend(bbox_to_anchor =(1.05,1), loc = 2, borderaxespad = 0)
+
+![image](https://github.com/IamQuangg/911-Calls/assets/128073066/32a96be7-30f3-436b-8861-d7317d229ffa)
+
     
     
 
