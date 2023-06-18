@@ -52,6 +52,16 @@
     plt.show()
 ![image](https://github.com/IamQuangg/911-Calls/assets/128073066/dbeefece-dbf5-4f76-865a-ad972a260b2f)
 
+# Phân tích xu hướng theo ngày
+    weekdays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+
+    df['Day of Week'] = pd.Categorical(df['Day of Week'], categories=weekdays, ordered=True)
+
+    df =df.sort_values('Day of Week')
+
+    byDayOfWeek = df.groupby('Day of Week').count()
+
+    byDayOfWeek.head()
 
     
     
