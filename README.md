@@ -64,6 +64,7 @@
     byDayOfWeek.head()
 ![image](https://github.com/IamQuangg/911-Calls/assets/128073066/4c684d6b-691a-46c4-859d-05bf5e7ee310)
 
+ # Phân tích theo loại cuộc gọi
+    byreason = df.groupby(df['Reason']).count()
+    byreason.head()
     
-    
-
