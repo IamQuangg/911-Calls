@@ -31,7 +31,10 @@
     df['Day of Week'] = df['Day of Week'].map(dmap)
     
     df.head()
+
+    sns.countplot(x = 'Month', data = df, hue= 'Reason')
     
+    plt.legend(bbox_to_anchor =(1.05,1), loc = 2, borderaxespad = 0)
     
     
 
